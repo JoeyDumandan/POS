@@ -20,45 +20,13 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:orientation="horizontal"
-            android:layout_weight="1"
-            android:weightSum="4">
+            android:layout_weight=".5">
 
-            <LinearLayout
-                android:layout_width="0dp"
+            <TextView
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-
-            </LinearLayout>
-
+                android:text="MEALS"
+                android:textSize="36dp"/>
 
         </LinearLayout>
 
@@ -67,14 +35,19 @@
             android:layout_height="0dp"
             android:orientation="horizontal"
             android:layout_weight="1"
-            android:weightSum="4">
+            android:weightSum="6">
 
             <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_weight="1">
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
 
+                <Button
+                    android:id="@+id/porkchop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="PORKCHOP" />
 
             </LinearLayout>
 
@@ -84,6 +57,11 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
+                <Button
+                    android:id="@+id/tapa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TAPA" />
 
             </LinearLayout>
 
@@ -93,6 +71,11 @@
                 android:orientation="vertical"
                 android:layout_weight="1">
 
+                <Button
+                    android:id="@+id/tocino"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TOCINO" />
 
             </LinearLayout>
 
@@ -102,10 +85,42 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
+                <Button
+                    android:id="@+id/friedChicken"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="FRIED CHICKEN" />
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
 
+                <Button
+                    android:id="@+id/daingNaBangus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="DAING NA BANGUS" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/porkSisig"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="PORK SISIG" />
+
+            </LinearLayout>
+            
         </LinearLayout>
 
         <LinearLayout
@@ -113,7 +128,7 @@
             android:layout_height="0dp"
             android:orientation="horizontal"
             android:layout_weight="1"
-            android:weightSum="4">
+            android:weightSum="6">
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -121,6 +136,11 @@
                 android:orientation="vertical"
                 android:layout_weight="1">
 
+                <Button
+                    android:id="@+id/chickenLongganisa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="CHICKEN LONGGANISA" />
 
             </LinearLayout>
 
@@ -130,6 +150,11 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
+                <Button
+                    android:id="@+id/grilledSpareribs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="GRILLED SPARERIBS" />
 
             </LinearLayout>
 
@@ -139,18 +164,13 @@
                 android:orientation="vertical"
                 android:layout_weight="1">
 
+                <Button
+                    android:id="@+id/garlicLongganisa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="GARLIC LONGGANISA" />
 
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-
-            </LinearLayout>
-
 
         </LinearLayout>
 
@@ -158,45 +178,13 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:orientation="horizontal"
-            android:layout_weight="1"
-            android:weightSum="4">
+            android:layout_weight=".5">
 
-            <LinearLayout
-                android:layout_width="0dp"
+            <TextView
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-
-            </LinearLayout>
-
+                android:text="EXTRA"
+                android:textSize="36dp"/>
 
         </LinearLayout>
 
@@ -204,8 +192,22 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:orientation="horizontal"
-            android:layout_weight="1"
-            android:weightSum="2">
+            android:layout_weight=".5"
+            android:weightSum="6">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/extraPorkchop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="EXTRA PORKCHOP" />
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -213,6 +215,11 @@
                 android:orientation="vertical"
                 android:layout_weight="1">
 
+                <Button
+                    android:id="@+id/extraTapa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="EXTRA TAPA" />
 
             </LinearLayout>
 
@@ -222,12 +229,201 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
+                <Button
+                    android:id="@+id/extraTocino"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="EXTRA TOCINO" />
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/extraFriedChicken"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="EXTRA FRIED CHICKEN" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/extraDaingNaBangus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="EXTRA DAING NA BANGUS" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/extraPorkSisig"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="EXTRA PORK SISIG" />
+
+            </LinearLayout>
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight=".5"
+            android:weightSum="6">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/extraChickenLongganisa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="EXTRA CHICKEN LONGGANISA" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/extraGrilledSpareribs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="EXTRA GRILLED SPARERIBS" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/extraGarlicLongganisa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="EXTRA GARLIC LONGGANISA" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/extraFriedRice"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="EXTRA FRIED RICE" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/extraEgg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="EXTRA EGG" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight=".5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="DRINKS"
+                android:textSize="36dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight=".5"
+            android:weightSum="6">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/sodaInCan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="SODA IN CAN" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bottledWater"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="BOTTLED WATER" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/juiceInCan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="JUICE IN CAN" />
+
+            </LinearLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -236,17 +432,78 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_weight="1"
-        android:id="@+id/order_list">
+        android:weightSum="4">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight=".5">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TODO: INSERT ORDER DETAILS HERE"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="3">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/order_list">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight=".5"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/dineIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="DINE IN" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/takeOut"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TAKE OUT" />
+
+            </LinearLayout>
 
         </LinearLayout>
 
     </LinearLayout>
-
 
 </LinearLayout>
