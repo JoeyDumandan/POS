@@ -1,12 +1,14 @@
 package com.atoysporkchop.order.api;
 
+import org.apache.commons.collections4.map.HashedMap;
+
 import java.io.Serializable;
 import java.util.List;
 
 public class OrderAPI implements Serializable {
 
     private Integer orderNumber;
-    private List<String> orderList;
+    private List<HashedMap<String, Integer>> orderList;
     private String orderType;
 
     public Integer getOrderNumber() {
@@ -17,11 +19,11 @@ public class OrderAPI implements Serializable {
         this.orderNumber = orderNumber;
     }
 
-    public List<String> getOrderList() {
+    public List<HashedMap<String, Integer>> getOrderList() {
         return orderList;
     }
 
-    public void setOrderList(List<String> orderList) {
+    public void setOrderList(List<HashedMap<String, Integer>> orderList) {
         this.orderList = orderList;
     }
 

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -37,89 +36,47 @@
             android:layout_weight="1"
             android:weightSum="6">
 
-            <LinearLayout
+            <Button
+                android:id="@+id/porkchop"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:text="@string/porkchop"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/porkchop"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="PORKCHOP" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/tapa"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:text="@string/tapa"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/tapa"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="TAPA" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/tocino"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:text="@string/tocino"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/tocino"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="TOCINO" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/friedChicken"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:text="@string/friedChicken"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/friedChicken"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="FRIED CHICKEN" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/daingNaBangus"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:text="@string/daingNaBangus"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/daingNaBangus"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="DAING NA BANGUS" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/porkSisig"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/porkSisig"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="PORK SISIG" />
-
-            </LinearLayout>
+                android:text="@string/porkSisig"
+                android:layout_weight="1"/>
 
         </LinearLayout>
 
@@ -128,49 +85,29 @@
             android:layout_height="0dp"
             android:orientation="horizontal"
             android:layout_weight="1"
-            android:weightSum="6">
+            android:weightSum="6"
+            android:baselineAligned="false">
 
-            <LinearLayout
+            <Button
+                android:id="@+id/chickenLongganisa"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:text="@string/chickenLongganisa"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/chickenLongganisa"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="CHICKEN LONGGANISA" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/grilledSpareribs"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:text="@string/grilledSpareribs"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/grilledSpareribs"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="GRILLED SPARERIBS" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/garlicLongganisa"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
-
-                <Button
-                    android:id="@+id/garlicLongganisa"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="GARLIC LONGGANISA" />
-
-            </LinearLayout>
+                android:text="@string/grilledSpareribs"
+                android:layout_weight="1"/>
 
         </LinearLayout>
 
@@ -195,89 +132,47 @@
             android:layout_weight=".5"
             android:weightSum="6">
 
-            <LinearLayout
+            <Button
+                android:id="@+id/extraPorkchop"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:text="EXTRA PORKCHOP"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/extraPorkchop"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="EXTRA PORKCHOP" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/extraTapa"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:text="EXTRA TAPA"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/extraTapa"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="EXTRA TAPA" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/extraTocino"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:text="EXTRA TOCINO"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/extraTocino"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="EXTRA TOCINO" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/extraFriedChicken"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:text="EXTRA FRIED CHICKEN"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/extraFriedChicken"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="EXTRA FRIED CHICKEN" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/extraDaingNaBangus"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:text="EXTRA DAING NA BANGUS"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/extraDaingNaBangus"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="EXTRA DAING NA BANGUS" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/extraPorkSisig"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
-
-                <Button
-                    android:id="@+id/extraPorkSisig"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="EXTRA PORK SISIG" />
-
-            </LinearLayout>
+                android:text="EXTRA PORK SISIG"
+                android:layout_weight="1"/>
 
         </LinearLayout>
 
@@ -288,75 +183,41 @@
             android:layout_weight=".5"
             android:weightSum="6">
 
-            <LinearLayout
+            <Button
+                android:id="@+id/extraChickenLongganisa"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:text="EXTRA CHICKEN LONGGANISA"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/extraChickenLongganisa"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="EXTRA CHICKEN LONGGANISA" />
 
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/extraGrilledSpareribs"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:text="EXTRA GRILLED SPARERIBS"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/extraGrilledSpareribs"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="EXTRA GRILLED SPARERIBS" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/extraGarlicLongganisa"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:text="EXTRA GARLIC LONGGANISA"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/extraGarlicLongganisa"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="EXTRA GARLIC LONGGANISA" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/extraFriedRice"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:text="EXTRA FRIED RICE"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/extraFriedRice"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="EXTRA FRIED RICE" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/extraEgg"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/extraEgg"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="EXTRA EGG" />
-
-            </LinearLayout>
+                android:text="EXTRA EGG"
+                android:layout_weight="1"/>
 
         </LinearLayout>
 
@@ -381,47 +242,26 @@
             android:layout_weight=".5"
             android:weightSum="6">
 
-            <LinearLayout
+            <Button
+                android:id="@+id/sodaInCan"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:text="@string/sodaInCan"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/sodaInCan"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="SODA IN CAN" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/bottledWater"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:text="@string/bottledWater"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/bottledWater"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="BOTTLED WATER" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/juiceInCan"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/juiceInCan"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="JUICE IN CAN" />
-
-            </LinearLayout>
+                android:text="@string/juiceInCan"
+                android:layout_weight="1"/>
 
         </LinearLayout>
 
@@ -474,33 +314,19 @@
             android:layout_weight=".5"
             android:weightSum="2">
 
-            <LinearLayout
+            <Button
+                android:id="@+id/dineIn"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:text="@string/dineIn"
+                android:layout_weight="1"/>
 
-                <Button
-                    android:id="@+id/dineIn"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="DINE IN" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/takeOut"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/takeOut"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="TAKE OUT" />
-
-            </LinearLayout>
+                android:text="@string/takeOut"
+                android:layout_weight="1"/>
 
         </LinearLayout>
 

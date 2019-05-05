@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Atoys POS</string>
+    <string name="porkchop">Porkchop</string>
+    <string name="tapa">Tapa</string>
+    <string name="tocino">Tocino</string>
+    <string name="friedChicken">Fried Chicken</string>
+    <string name="daingNaBangus">Daing na Bangus</string>
+    <string name="porkSisig">Pork Sisig</string>
+    <string name="chickenLongganisa">Chicken Longganisa</string>
+    <string name="grilledSpareribs">Grilled Spareribs</string>
+    <string name="garlicLongganisa">Garlic Longganisa</string>
+    <string name="friedRice">Fried Rice</string>
+    <string name="egg">Egg</string>
+    <string name="sodaInCan">Soda in Can</string>
+    <string name="bottledWater">Bottled Water</string>
+    <string name="juiceInCan">Juice in Can</string>
+    <string name="dineIn">Dine In</string>
+    <string name="takeOut">Take Out</string>
+    <string name="extra">Extra</string>
 </resources>
