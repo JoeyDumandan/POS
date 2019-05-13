@@ -3,7 +3,10 @@ package com.atoysporkchop;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.ListView;
 
 import com.atoysporkchop.order.api.BottledWaterAPI;
 import com.atoysporkchop.order.api.ChickenLongganisaAPI;
@@ -26,8 +29,9 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    List<String> orderList = new ArrayList<String>();
-    TotalAPI totalAPI = new TotalAPI();
+    private ArrayList<String> orderList;
+    private ArrayAdapter<String> adapter;
+    private TotalAPI totalAPI = new TotalAPI();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,19 +40,21 @@ public class MainActivity extends AppCompatActivity {
 
         initializeSales();
 
+        orderList = new ArrayList<String>();
+        adapter = new ArrayAdapter<>(this, R.layout.product_view, R.id.product_name, orderList);
+
+        ListView order_list = (ListView) findViewById(R.id.order_list);
+        order_list.setAdapter(adapter);
+
         Button porkchop = (Button) findViewById(R.id.porkchop);
         porkchop.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                orderList.add("porkchop");
+                orderList.add(getString(R.string.porkchop));
+                adapter.notifyDataSetChanged();
             }
         });
 
-        Button tapa = (Button) findViewById(R.id.tapa);
-        tapa.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                orderList.add("tapa");
-            }
-        });
+
 
     }
 
